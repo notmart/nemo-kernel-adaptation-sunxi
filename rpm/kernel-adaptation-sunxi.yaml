@@ -17,7 +17,7 @@ PkgConfigBR:
     - ncurses
 
 Sources:
-    - linux-sunxi-%{version}.tar.xz
+    - %{name}-%{version}.tar.xz
     - "%{name}.config"
 Patches:
     - mer-toolchain-mno-unaligned-access.patch

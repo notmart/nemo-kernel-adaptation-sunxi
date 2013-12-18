@@ -17,7 +17,7 @@ Release:    1
 Group:      Kernel/Linux Kernel
 License:    GPLv2
 ExclusiveArch:  %{arm}
-Source0:    linux-sunxi-%{version}.tar.xz
+Source0:    %{name}-%{version}.tar.xz
 Source1:    %{name}.config
 Source100:  kernel-adaptation-sunxi.yaml
 Patch0:     mer-toolchain-mno-unaligned-access.patch
@@ -43,7 +43,7 @@ Development files of the Allwinner sunxi series SoC family Linux kernel
 
 
 %prep
-%setup -q -n linux-sunxi-%{version}/linux-sunxi
+%setup -q -n %{name}-%{version}/linux-sunxi
 
 # mer-toolchain-mno-unaligned-access.patch
 %patch0 -p1
