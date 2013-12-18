@@ -1,0 +1,17 @@
+diff --git a/Makefile b/Makefile
+index 23bcb1a..b45ff98 100644
+--- a/Makefile
++++ b/Makefile
+@@ -640,6 +640,12 @@ ifeq ($(shell $(CONFIG_SHELL) $(srctree)/scripts/gcc-goto.sh $(CC)), y)
+ 	KBUILD_CFLAGS += -DCC_HAVE_ASM_GOTO
+ endif
+ 
++# You will need to apply this patch to your kernel with this new Mer and
++# toolchain release, if your kernels break on boot (they likely will). It
++# will enable -mno-unaligned-access in your kernel compilation flags.
++
++KBUILD_CFLAGS  += -mno-unaligned-access
++
+ # Add user supplied CPPFLAGS, AFLAGS and CFLAGS as the last assignments
+ # But warn user when we do so
+ warn-assign = \

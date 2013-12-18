@@ -1,0 +1,65 @@
+* Wed Jun 05 2013 Marco Martin <notmart@gmail.com> - 3.4+git20130605.113159
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/notmart/linux-sunxi.git
+- Branch:  sunxi-eoma68
+- Commit ID: f6345761548164ccaffc16f6526f1341085c52d7
+
+* Sat May 25 2013 Marco Martin <notmart@gmail.com> - 3.4+git20130525.160157
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/notmart/linux-sunxi.git
+- Branch:  sunxi-eoma68
+- Commit ID: ea71dd29c3dd32c3fad2d6ae387b0baa8fd2d78e
+
+* Sat May 25 2013 Marco Martin <notmart@gmail.com> - 3.4+git20130525.115437
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/notmart/linux-sunxi.git
+- Branch:  sunxi-eoma68
+- Commit ID: f02bfa62e8449fe393d7cf0f6ada3a0bb5c514fe
+
+* Wed May 22 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130522.184630
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  stage/sunxi-3.4
+- Commit ID: c7d23318c2b3d221ca184577ad60bc0620d47e85
+
+* Sat May 18 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130518.211638
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  stage/sunxi-3.4
+- Commit ID: 8b9710fb7e6956b100ae6f14c31d8a6773185c32
+
+* Thu May 16 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130516.131311
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  stage/sunxi-3.4
+- Commit ID: b341bf8889e5e553d20f0e14115e5f4a3530ff10
+
+* Sat May 04 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130504.172129
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  sunxi-3.4
+- Commit ID: 6416f0bf9e32d0950ba6f768ac20228ce8940a79
+
+* Sat May 04 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130504.163140
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  sunxi-3.4
+- Commit ID: 2439ae6dc1e1bafa955f05832c280b82334aa628
+
+* Fri Mar 29 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130329.153558
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  sunxi-3.4
+- Commit ID: 22628c725dd2ab655b288be2ecdcc1a6688a7a75
+
+* Fri Mar 15 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130315.184008
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch:  sunxi-3.4
+- Commit ID: b7f5e9128d25e94d1ef4c45727ea38987ec75838
+
+* Tue Mar 12 2013 Maurice de la Ferté <kadava@gmx.de> - 3.4+git20130312.201643
+- Update automatically tarball from repository.
+- Repository URL: git://github.com/linux-sunxi/linux-sunxi.git
+- Branch: sunxi-3.4
+- Commit ID: 73b6cf8d7765249b0c4fd06f0d4dd90d8ba88793

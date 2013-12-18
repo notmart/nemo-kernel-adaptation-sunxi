@@ -1,0 +1,4 @@
+#Graphics devices
+KERNEL=="mali*"  OWNER="root" GROUP="mali" MODE="0666"
+KERNEL=="ump*" OWNER="ROOT" GROUP="mali" MODE="0666"
+

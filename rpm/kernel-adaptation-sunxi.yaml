@@ -1,0 +1,45 @@
+Name: kernel-adaptation-sunxi
+Summary: Linux kernel adaptation sunxi
+Description: Allwinner sunxi series SoC family Linux kernel adaptation
+Version: 3.4
+Release: 1
+Group: Kernel/Linux Kernel
+License: GPLv2
+Configure: none
+Builder: none
+ExclusiveArch: "%{arm}"
+RunFdupes:
+    - "%{_prefix}/src/kernels/%{kernel_version}/"
+PkgBR:
+    - module-init-tools
+    - u-boot-tools
+PkgConfigBR:
+    - ncurses
+
+Sources:
+    - linux-sunxi-%{version}.tar.xz
+    - "%{name}.config"
+Patches:
+    - mer-toolchain-mno-unaligned-access.patch
+Provides:
+    - "kernel = %{kernel_version}"
+Requires:
+    - module-init-tools
+
+Files:
+    - "%{_sysconfdir}/modprobe.d"
+    - "%{_sysconfdir}/modules-load.d"
+    - "/lib/modules/%{kernel_version}/*"
+    - "/boot/*"
+
+SubPackages:
+    - Name: devel
+      Summary: Devel files for Linux kernel adaptation sunxi
+      Group: Development/System
+      Description: |
+          Development files of the Allwinner sunxi series SoC family Linux kernel
+      Provides:
+          - "kernel-devel = %{kernel_version}"
+      Files:
+          - "/%{_prefix}/src/kernels/%{kernel_version}/*"
+          - "/%{_prefix}/src/kernels/%{kernel_version}/.config"
