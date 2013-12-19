@@ -74,8 +74,8 @@ rm -rf %{buildroot}
 # Modules
 make INSTALL_MOD_PATH=%{buildroot} modules_install
 mkdir -p %{buildroot}/boot/
-make INSTALL_PATH=%{buildroot}/boot/ install
-install -m 755 arch/arm/boot/*Image %{buildroot}/boot/
+#make INSTALL_PATH=%{buildroot}/boot/ install
+install -m 755 arch/arm/boot/uImage %{buildroot}/boot/
 mkdir -p %{buildroot}/lib/modules/%{kernel_version}/
 touch %{buildroot}/lib/modules/%{kernel_version}/modules.dep
 
